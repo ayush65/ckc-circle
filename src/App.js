@@ -195,9 +195,10 @@ function App() {
       </div>
 
       <div className="controls">
-        <button onClick={increaseSize}>+</button>
+      <div><button onClick={increaseSize} className="image-plus">+</button>
         <button onClick={decreaseSize}>-</button>
-
+    </div>
+        
         <button onClick={() => captureAndDownload(500)}>download</button>
       </div>
     </div>

@@ -44,3 +44,11 @@ body {
     transform: rotate(360deg);
   }
 }
+
+.controls {
+  display: flex;
+  flex-direction: column;
+  z-index: 10000000000000;
+  margin-top: 17rem;
+  gap: 2rem
+}
