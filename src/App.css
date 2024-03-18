@@ -1,5 +1,12 @@
-.App {
+body {
   text-align: center;
+  /* background-color: #61dafb; */
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  /* align-items: ; */
+  gap: 5rem;
 }
 
 .App-logo {
@@ -32,6 +39,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
